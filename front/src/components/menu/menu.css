@@ -1,0 +1,55 @@
+.menu {
+    border-right: 3px solid #0e97fa;
+    background-color: #000000;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 50px;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    bottom: 0px;
+    left: -53px;
+    transition: left 0.3s ease;
+    position: absolute;
+}
+
+.openMenu {
+    left: 0;
+}
+
+.navIcons {
+    width: 30px;
+    color: #a3a7aa;
+}
+
+.btnNav {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnAbrir {
+    position: absolute;
+    left: 51px;
+    border-radius: 23px;
+    border: none;
+    height: 21px;
+    font-size: 10px;
+    background-color: #0e97fa;
+    color: white;
+}
+
+.btnNav:hover {
+    background-color: #0e97fa;
+    color: #fff;
+}
+
+.navIcons:hover {
+    color: #fff;
+}

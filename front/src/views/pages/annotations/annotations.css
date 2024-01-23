@@ -1,0 +1,52 @@
+.trashIconLi {
+    width: 30px;
+    color: #f6715d;
+    cursor: pointer;
+}
+
+.clipIconLi {
+    width: 30px;
+    color: #0e97fa;
+}
+
+.liAnnotations {
+    padding: 0px 18px;
+    display: flex;
+    width: 89%;
+    background-color: #fefefe;
+    align-items: center;
+    border-radius: 13px;
+    justify-content: space-between;
+    background-image: url('../../../../public/img/lipaper.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    text-decoration: underline;
+}
+
+.liP {
+    font-size: 0.8rem;
+}
+
+ul {
+    gap: 14px;
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divSemAnotacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 90px;
+}
