@@ -1,0 +1,105 @@
+.modal {
+  max-width: 560px;
+  width: 94%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.24);
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  gap: 14px;
+  z-index: 9999;
+  position: fixed;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  animation: move 0.2s ease-in-out forwards;
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+}
+
+.modal-leave {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+.topModal {
+  padding: 13px 0px;
+  width: 100%;
+  border-bottom: 2px solid #8080803b;
+  display: flex;
+  gap: 11px;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1Modal {
+  font-size: 1rem;
+}
+
+.pModal {
+  font-size: 0.8rem;
+}
+
+.bodyModal {
+  padding: 0px 42px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px
+}
+
+.btnModalCancel {
+  width: 133px;
+  height: 34px;
+  border-radius: 22px;
+  border: 2px solid gray;
+  background-color: white;
+}
+
+.btnModalExcluir {
+  width: 133px;
+  height: 34px;
+  border-radius: 22px;
+  border: none;
+  background-color: #f6715d;
+  color: white;
+}
+
+.btnGroup {
+  width: 100%;
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-top: 21px;
+}
+
+@media screen and (min-width: 342px) {
+  .topModal {
+    gap: 9%;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .topModal {
+    gap: 36%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .topModal {
+    gap: 43%;
+  }
+}

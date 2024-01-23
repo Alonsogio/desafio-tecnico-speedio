@@ -1,0 +1,23 @@
+.topPage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 33%;
+    margin-bottom: 33px
+}
+
+.xIcon {
+    width: 30px;
+}
+
+.closeTop {
+    font-size: 26px;
+    color: #9ca0a3;
+}
+
+@media screen and (min-width: 570px) {
+    .topPage {
+        gap: 51%;
+    }
+}
