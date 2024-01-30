@@ -12,6 +12,7 @@
     left: -53px;
     transition: left 0.3s ease;
     position: absolute;
+    z-index: 9999;
 }
 
 .openMenu {
