@@ -2,6 +2,7 @@
 
 .container {
     background-image: url(./img/bg.jpeg);
+    background-size: cover;
 }
 
 body {
